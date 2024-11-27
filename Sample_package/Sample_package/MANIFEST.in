@@ -1,1 +1,4 @@
 include README.md
+recursive-include Sample_package/trained_models *
+recursive-include Sample_package/prediction_model/datasets *
+recursive-include tests *
