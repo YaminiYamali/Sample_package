@@ -6,3 +6,6 @@
 
 ```bash
 pip install Sample_package
+
+
+"Added the config file with paths but havent used them in the py codes yet."
