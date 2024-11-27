@@ -7,8 +7,7 @@
 ```bash
 pip install Sample_package
 
-
-```markdown
+```
 ## Exception
 
 ### Paths in `config.py` Not Integrated
@@ -19,8 +18,11 @@ To make the code more flexible and portable across different environments, the p
 
 For example, instead of hardcoding paths for datasets or trained models, you should use the paths from `config.py` like this:
 
-```python
+
+```bash
 from Sample_package.prediction_model.config import config
+```
+
 
 # Access paths from the config
 model_path = config.MODEL_PATH
